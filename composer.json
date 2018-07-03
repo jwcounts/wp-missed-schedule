@@ -1,0 +1,17 @@
+{
+	"name": "jwcounts/wp-missed-schedule",
+	"description": "Find only missed schedule posts, every 15 minutes, and republish correctly 10 items each session. The Original plugin (only this) no longer available on WordPress.org for explicit author request! Compatible with WP 2.1+ to 4.9+ and 5.0-alpha (100.000+ installs 300.000+ downloads 2016-04-13) Please: do not install unauthorized malware cloned forked!",
+	"type": "wordpress-plugin",
+	"version": "1.0",
+	"dist": {
+		"url": "https://github.com/jwcounts/wp-missed-schedule/archive/v1.0.zip",
+		"type": "zip"
+	},
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "sLaNGjIs Team",
+			"email": "http://slangjis.org"
+		}
+	]
+}

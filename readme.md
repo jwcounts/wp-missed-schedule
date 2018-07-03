@@ -1,16 +1,16 @@
-=== WP Missed Schedule Original ===
-Contributors: sLaNGjIs Team
-Requires at least: 2.1
-Tested up to: 4.9
-Stable tag: 2014.1231.2017.12
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Donate link: http://slangjis.org/donate/
-Tags: sLaNGjIs, cron job, cron jobs, failed future posts, missed, missed schedule, schedule, scheduled, scheduled missed, scheduled posts,
+# WP Missed Schedule Original
+ - Contributors: sLaNGjIs Team
+ - Requires at least: 2.1
+ - Tested up to: 4.9
+ - Stable tag: 2014.1231.2017.12
+ - License: GPLv3 or later
+ - License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ - Donate link: http://slangjis.org/donate/
+ - Tags: sLaNGjIs, cron job, cron jobs, failed future posts, missed, missed schedule, schedule, scheduled, scheduled missed, scheduled posts,
 
 wordpress plugin wp missed schedule fix scheduled posts failed on virtual cron job bug and republish them fixed 10 items each session every 15 minutes
 
-== Description ==
+## Description
 
 The Original plugin for WordPress <a href="http://slangjis.org/plugins/wp-missed-schedule/">WP Missed Schedule</a> Fix only scheduled failed future posts, that have this bug, and republish correctly fixed 10 items each session, every 15 minutes, without waste resources. The others will be solved on next sessions, until no longer exist: 10 items every 15 minutes, 40 items every hour, 1 session every 15 minutes, 4 sessions every hour. Work with virtual or real cron job on WordPress from 2.1+ to 4.9+ and 5.0-alpha single or multisite install - The configuration is automatic and plugin nologo! - Build 2017-12-31 - Stable Branche Version 2014.1231.2017.12 - This plugin is no longer available on WordPress.org plugins repository for explicit author request, but only on <a href="https://github.com/sLaNGjI/wp-missed-schedule/">GitHub</a> - [no support provided on WordPress.org forum or reviews](https://slangji.wordpress.com/support/) Please note that on WordPress 4.9+ is recommended (minimum) use of PHP 5.4+ or greater.
 
