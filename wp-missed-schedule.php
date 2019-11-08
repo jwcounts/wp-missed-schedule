@@ -1,17 +1,17 @@
-<?php 
+<?php
 /*
- *            __                  __    __   ______          ______             ________                                
- *           /  |                /  \  /  | /      \        /      |           /        |                               
- *   _______ $$ |        ______  $$  \ $$ |/$$$$$$  |    __ $$$$$$/   _______  $$$$$$$$/______    ______   _____  ____  
- *  /       |$$ |       /      \ $$$  \$$ |$$ | _$$/    /  |  $$ |   /       |    $$ | /      \  /      \ /     \/    \ 
+ *            __                  __    __   ______          ______             ________
+ *           /  |                /  \  /  | /      \        /      |           /        |
+ *   _______ $$ |        ______  $$  \ $$ |/$$$$$$  |    __ $$$$$$/   _______  $$$$$$$$/______    ______   _____  ____
+ *  /       |$$ |       /      \ $$$  \$$ |$$ | _$$/    /  |  $$ |   /       |    $$ | /      \  /      \ /     \/    \
  * /$$$$$$$/ $$ |       $$$$$$  |$$$$  $$ |$$ |/    |   $$/   $$ |  /$$$$$$$/     $$ |/$$$$$$  | $$$$$$  |$$$$$$ $$$$  |
  * $$      \ $$ |       /    $$ |$$ $$ $$ |$$ |$$$$ |   /  |  $$ |  $$      \     $$ |$$    $$ | /    $$ |$$ | $$ | $$ |
  *  $$$$$$  |$$ |_____ /$$$$$$$ |$$ |$$$$ |$$ \__$$ |   $$ | _$$ |_  $$$$$$  |    $$ |$$$$$$$$/ /$$$$$$$ |$$ | $$ | $$ |
  * /     $$/ $$       |$$    $$ |$$ | $$$ |$$    $$/    $$ |/ $$   |/     $$/     $$ |$$       |$$    $$ |$$ | $$ | $$ |
- * $$$$$$$/  $$$$$$$$/  $$$$$$$/ $$/   $$/  $$$$$$/__   $$ |$$$$$$/ $$$$$$$/      $$/  $$$$$$$/  $$$$$$$/ $$/  $$/  $$/ 
- *                                                /  \__$$ |                                                            
- *                                                $$    $$/                                                             
- *                                                 $$$$$$/                                                              
+ * $$$$$$$/  $$$$$$$$/  $$$$$$$/ $$/   $$/  $$$$$$/__   $$ |$$$$$$/ $$$$$$$/      $$/  $$$$$$$/  $$$$$$$/ $$/  $$/  $$/
+ *                                                /  \__$$ |
+ *                                                $$    $$/
+ *                                                 $$$$$$/
  *
  Plugin Name: WP Missed Schedule (The Original)
  Plugin URI:  http://slangjis.org/plugins/wp-missed-schedule/
@@ -54,7 +54,7 @@
  *  STABLE Branche 2017 Release 2017 Build 1231 - (tags)
  *    BETA Branche 2018 Release 2018 Build 1231 - (trunk)
  *   ALPHA Branche 2019 Release 2019 Build 1231 - (code in becoming)
- * 
+ *
  * Please note that: Build 1231 include all previous Releases from 0101 to 1231
  *
  * Approved                  @ 2007-08-18 (on wordpress.org repository)
@@ -122,7 +122,7 @@
  * without any warranty of function, without any warranty of merchantability,
  * without any fitness for a particular or specific purpose, without any type
  * of future assistance from your own author or the others authors.
- * 
+ *
  * This program is written with the intent of being helpful,
  * but you are responsible for its use or actions on your own website.
  *
@@ -357,7 +357,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_init' );
 		}
@@ -392,7 +392,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_fms' );
 		}
@@ -427,7 +427,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_fms2' );
 		}
@@ -462,7 +462,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_mms' );
 		}
@@ -497,7 +497,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_mms2' );
 		}
@@ -532,7 +532,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_spg' );
 		}
@@ -567,7 +567,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_spg2' );
 		}
@@ -602,7 +602,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_pbs' );
 		}
@@ -637,7 +637,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_pbp' );
 		}
@@ -672,7 +672,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_sms' );
 		}
@@ -707,7 +707,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_sms2' );
 		}
@@ -742,7 +742,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_wpt' );
 		}
@@ -777,7 +777,7 @@
 <p>Plugin WP Missed Schedule <strong>deactivated</strong>.</p>
 </div>
 <script>window.jQuery && jQuery( function( $ ) { $( 'div#message.updated' ).remove(); } );</script>
-<?php 
+<?php
 				}
 			add_action( 'admin_notices', 'wpms_ant_wpt2' );
 		}
@@ -968,7 +968,7 @@
 					global $wpdb;
 
 					$qry = <<<SQL
- SELECT ID FROM {$wpdb->posts} WHERE ( ( post_date > 0 && post_date <= %s ) ) AND post_status = 'future' LIMIT 0,10 
+ SELECT ID FROM {$wpdb->posts} WHERE ( ( post_date > 0 && post_date <= %s ) ) AND post_status = 'future' LIMIT 0,10
 SQL;
 
 					$sql = $wpdb->prepare( $qry, current_time( 'mysql', 0 ) );
@@ -1041,7 +1041,7 @@ SQL;
 				}
 			add_filter( 'plugin_row_meta', 'wpms_prml', 10, 2 );
 		}
-
+	/*
 	function wpms_shfl()
 		{
 			if ( ! is_home() && ! is_front_page() )
@@ -1071,7 +1071,7 @@ SQL;
 				}
 		}
 	add_action( 'admin_head', 'wpms_shfl_authag', 100 );
-	add_action( 'admin_footer', 'wpms_shfl_authag', 100 );
+	add_action( 'admin_footer', 'wpms_shfl_authag', 100 ); */
 
 	function wpms_deactivation()
 		{
@@ -1184,7 +1184,7 @@ SQL;
 						return;
 
 					global $wp_version;
-					
+
 //					delete_option( 'byrev_fixshedule_next_verify' );                                                      # Future ALPHA conding reserved
 //					delete_option( 'scheduled_post_guardian_next_run' );                                                  # Future ALPHA conding reserved
 //					delete_option( 'simpul_missed_schedule' );                                                            # Future ALPHA conding reserved
